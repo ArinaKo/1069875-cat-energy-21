@@ -1,0 +1,23 @@
+.button {
+  display: block;
+  padding: 10px 0;
+
+  .headline-up;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: @white;
+  text-decoration: none;
+
+  background-color: @green;
+  border: none;
+
+  &:hover {
+    background-color: @green-hvr;
+  }
+
+  &:active {
+    color: fade(@white, 30%);
+    background-color: @green-hvr;
+  }
+}
