@@ -1,0 +1,34 @@
+.headline() {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: normal;
+  color: @headline-black;
+}
+
+.headline-up() {
+  .headline();
+  text-transform: uppercase;
+}
+
+.list-reset() {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container-mobile() {
+  width: @mobile;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+
+.container-tablet() {
+  width: @tablet;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.container-desktop() {
+  width: @desktop;
+  margin: 0 auto;
+}

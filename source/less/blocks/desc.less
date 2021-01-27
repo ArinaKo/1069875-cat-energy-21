@@ -1,0 +1,32 @@
+.desc {
+  width: 100%;
+
+  font-size: 12px;
+  line-height: 16px;
+
+  border-collapse: collapse;
+}
+
+.desc__col1,
+.desc__col2 {
+  padding: 0;
+}
+
+.desc__col1 {
+  font-weight: normal;
+}
+
+.desc__col2 {
+  text-align: right;
+}
+
+@media (min-width: @tablet) {
+  .desc {
+    font-size: 16px;
+    line-height: 31px;
+  }
+
+  .desc__row {
+    border-bottom: 1px solid @border-grey;
+  }
+}
